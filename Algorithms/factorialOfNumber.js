@@ -18,5 +18,4 @@ export const FactorialOfNumber2 = (n) => {
         result *= i;
     }
     return result;
-
 }
