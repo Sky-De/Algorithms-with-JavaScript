@@ -1,8 +1,9 @@
-import { FibonacciSequence1, FibonacciSequence2 } from "./Algorithms/fibonacciSequence.js";
-import { FactorialOfNumber1, FactorialOfNumber2 } from "./Algorithms/factorialOfNumber.js";
-import { PrimeNumber1, PrimeNumber2 } from "./Algorithms/primeNumber.js";
-import { PowerOfTwo, PowerOfTwoBitWise } from "./Algorithms/powerOfTwo.js";
-import { recursiveFibonacci } from "./Algorithms/recursiveFibonacci.js";
+import { FibonacciSequence1, FibonacciSequence2 } from "./Algorithms/mathAlgorithms/fibonacciSequence.js";
+import { FactorialOfNumber1, FactorialOfNumber2 } from "./Algorithms/mathAlgorithms/factorialOfNumber.js";
+import { PrimeNumber1, PrimeNumber2 } from "./Algorithms/mathAlgorithms/primeNumber.js";
+import { PowerOfTwo, PowerOfTwoBitWise } from "./Algorithms/mathAlgorithms/powerOfTwo.js";
+import { recursiveFibonacci } from "./Algorithms/mathAlgorithms/recursiveFibonacci.js";
+import { recursiveFactorial } from "./Algorithms/mathAlgorithms/recursiveFactorial.js";
 
 // FibonacciSequence----------------
 // console.log(FibonacciSequence1(2));
@@ -47,3 +48,10 @@ import { recursiveFibonacci } from "./Algorithms/recursiveFibonacci.js";
 // console.log(recursiveFibonacci(0));
 // console.log(recursiveFibonacci(1));
 // console.log(recursiveFibonacci(6));
+
+
+// recursiveFactorial--------------
+// console.log(recursiveFactorial(0));
+// console.log(recursiveFactorial(1));
+// console.log(recursiveFactorial(5));
+
