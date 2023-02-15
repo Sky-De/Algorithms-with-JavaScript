@@ -4,6 +4,12 @@ import { PrimeNumber1, PrimeNumber2 } from "./Algorithms/mathAlgorithms/primeNum
 import { PowerOfTwo, PowerOfTwoBitWise } from "./Algorithms/mathAlgorithms/powerOfTwo.js";
 import { recursiveFibonacci } from "./Algorithms/mathAlgorithms/recursiveFibonacci.js";
 import { recursiveFactorial } from "./Algorithms/mathAlgorithms/recursiveFactorial.js";
+import { linearSearch } from "./Algorithms/searchAlgorithms/linearSerach.js";
+import { binarySearch } from "./Algorithms/searchAlgorithms/binarySearch.js";
+import { recursiveBinarySearch } from "./Algorithms/searchAlgorithms/recursiveBinarySearch.js";
+
+
+// MATH ALGORITHMS--------------------------------------------------- 
 
 // FibonacciSequence----------------
 // console.log(FibonacciSequence1(2));
@@ -54,4 +60,25 @@ import { recursiveFactorial } from "./Algorithms/mathAlgorithms/recursiveFactori
 // console.log(recursiveFactorial(0));
 // console.log(recursiveFactorial(1));
 // console.log(recursiveFactorial(5));
+
+
+
+// SEARCH ALGORITHMS--------------------------------------------------- 
+
+// linearSearch--------------
+// console.log(linearSearch([-5, 2, 10, 4, 6], 10));
+// console.log(linearSearch([-5, 2, 10, 4, 6], 6));
+// console.log(linearSearch([-5, 2, 10, 4, 6], 20));
+
+// binarySearch--------------
+// console.log(binarySearch([-5, 2, 4, 6, 10], 10));
+// console.log(binarySearch([-5, 2, 4, 6, 10], 6));
+// console.log(binarySearch([-5, 2, 4, 6, 10], 20));
+// console.log(binarySearch([-5, 2, 4, 6, 10], -5));
+
+// recursiveBinarySearch--------------
+// console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 10));
+// console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 6));
+// console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 20));
+// console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], -5));
 
