@@ -7,6 +7,7 @@ import { recursiveFactorial } from "./Algorithms/mathAlgorithms/recursiveFactori
 import { linearSearch } from "./Algorithms/searchAlgorithms/linearSerach.js";
 import { binarySearch } from "./Algorithms/searchAlgorithms/binarySearch.js";
 import { recursiveBinarySearch } from "./Algorithms/searchAlgorithms/recursiveBinarySearch.js";
+import { bubbleSort } from "./Algorithms/sortAlgorithms/bubbleSort.js";
 
 
 // MATH ALGORITHMS--------------------------------------------------- 
@@ -80,5 +81,12 @@ import { recursiveBinarySearch } from "./Algorithms/searchAlgorithms/recursiveBi
 // console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 10));
 // console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 6));
 // console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 20));
-// console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], -5));
+// console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], -5));>
 
+
+// SORT ALGRITHMS-----------------------------------------------------
+
+// bubbleSort---------------
+// console.log(bubbleSort([8, 20, -2, 4, -6]));
+// console.log(bubbleSort([-8, 2, -12, 14, 6]));
+// console.log(bubbleSort([3, 15, -2, 0, 1]));
