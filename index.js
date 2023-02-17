@@ -8,6 +8,8 @@ import { linearSearch } from "./Algorithms/searchAlgorithms/linearSerach.js";
 import { binarySearch } from "./Algorithms/searchAlgorithms/binarySearch.js";
 import { recursiveBinarySearch } from "./Algorithms/searchAlgorithms/recursiveBinarySearch.js";
 import { bubbleSort } from "./Algorithms/sortAlgorithms/bubbleSort.js";
+import { quickSort } from "./Algorithms/sortAlgorithms/quickSort.js";
+import { mergeSort } from "./Algorithms/sortAlgorithms/mergeSort.js";
 
 
 // MATH ALGORITHMS--------------------------------------------------- 
@@ -90,3 +92,19 @@ import { bubbleSort } from "./Algorithms/sortAlgorithms/bubbleSort.js";
 // console.log(bubbleSort([8, 20, -2, 4, -6]));
 // console.log(bubbleSort([-8, 2, -12, 14, 6]));
 // console.log(bubbleSort([3, 15, -2, 0, 1]));
+
+// insertionSort---------------
+// console.log(bubbleSort([8, 20, -2, 4, -6]));
+// console.log(bubbleSort([-8, 2, -12, 14, 6]));
+// console.log(bubbleSort([3, 15, -2, 0, 1]));
+
+// quickSort---------------
+// console.log(quickSort([8, 20, -2, 4, -6]));
+// console.log(quickSort([-8, 2, -12, 14, 6]));
+// console.log(quickSort([3, 15, -2, 0, 1]));
+
+// mergeSort---------------
+console.log(mergeSort([8, 20, -2, 4, -6]));
+console.log(mergeSort([-8, 2, -12, 14, 6]));
+console.log(mergeSort([3, 15, -2, 0, 1]));
+
