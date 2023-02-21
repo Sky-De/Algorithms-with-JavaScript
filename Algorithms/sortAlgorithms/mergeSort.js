@@ -1,5 +1,5 @@
 
-
+// Big-O = O(nlogn) 
 export const mergeSort = (arr) => {
     if(arr.length < 2) return arr;
     const mid = Math.floor(arr.length *0.5);

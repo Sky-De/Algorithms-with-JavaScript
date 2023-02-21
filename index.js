@@ -10,6 +10,7 @@ import { recursiveBinarySearch } from "./Algorithms/searchAlgorithms/recursiveBi
 import { bubbleSort } from "./Algorithms/sortAlgorithms/bubbleSort.js";
 import { quickSort } from "./Algorithms/sortAlgorithms/quickSort.js";
 import { mergeSort } from "./Algorithms/sortAlgorithms/mergeSort.js";
+import { cartesianProducts } from "./Algorithms/miscProblems/cartesianProduct.js";
 
 
 // MATH ALGORITHMS--------------------------------------------------- 
@@ -104,7 +105,11 @@ import { mergeSort } from "./Algorithms/sortAlgorithms/mergeSort.js";
 // console.log(quickSort([3, 15, -2, 0, 1]));
 
 // mergeSort---------------
-console.log(mergeSort([8, 20, -2, 4, -6]));
-console.log(mergeSort([-8, 2, -12, 14, 6]));
-console.log(mergeSort([3, 15, -2, 0, 1]));
+// console.log(mergeSort([8, 20, -2, 4, -6]));
+// console.log(mergeSort([-8, 2, -12, 14, 6]));
+// console.log(mergeSort([3, 15, -2, 0, 1]));
 
+// cartesianProduct----------
+// console.log(cartesianProducts([1,2],[3,4]));
+// console.log(cartesianProducts([4,5],[6,7,8]));
+// console.log(cartesianProducts([1,2,3,4,5],[3,4]));
