@@ -1,6 +1,6 @@
 
 
-
+// Big-O = O(m*n)
 export const cartesianProducts = (arr1,arr2) => {
     let result = [];
     for (let i = 0; i < arr1.length; i++) {

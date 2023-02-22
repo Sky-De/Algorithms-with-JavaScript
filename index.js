@@ -11,6 +11,7 @@ import { bubbleSort } from "./Algorithms/sortAlgorithms/bubbleSort.js";
 import { quickSort } from "./Algorithms/sortAlgorithms/quickSort.js";
 import { mergeSort } from "./Algorithms/sortAlgorithms/mergeSort.js";
 import { cartesianProducts } from "./Algorithms/miscProblems/cartesianProduct.js";
+import { climbingStaircase } from "./Algorithms/miscProblems/climbingStaircase.js";
 
 
 // MATH ALGORITHMS--------------------------------------------------- 
@@ -109,7 +110,20 @@ import { cartesianProducts } from "./Algorithms/miscProblems/cartesianProduct.js
 // console.log(mergeSort([-8, 2, -12, 14, 6]));
 // console.log(mergeSort([3, 15, -2, 0, 1]));
 
+// miscProblems----------------------------------------------------------
+
 // cartesianProduct----------
 // console.log(cartesianProducts([1,2],[3,4]));
 // console.log(cartesianProducts([4,5],[6,7,8]));
 // console.log(cartesianProducts([1,2,3,4,5],[3,4]));
+
+
+
+// climbingStaircase--------------
+// console.log(climbingStaircase(1));
+// console.log(climbingStaircase(2));
+// console.log(climbingStaircase(3));
+// console.log(climbingStaircase(4));
+// console.log(climbingStaircase(5));
+
+
