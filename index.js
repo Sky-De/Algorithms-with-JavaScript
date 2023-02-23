@@ -12,6 +12,7 @@ import { quickSort } from "./Algorithms/sortAlgorithms/quickSort.js";
 import { mergeSort } from "./Algorithms/sortAlgorithms/mergeSort.js";
 import { cartesianProducts } from "./Algorithms/miscProblems/cartesianProduct.js";
 import { climbingStaircase } from "./Algorithms/miscProblems/climbingStaircase.js";
+import { towerOfHanoi } from "./Algorithms/miscProblems/towerOfHanoi.js";
 
 
 // MATH ALGORITHMS--------------------------------------------------- 
@@ -125,5 +126,9 @@ import { climbingStaircase } from "./Algorithms/miscProblems/climbingStaircase.j
 // console.log(climbingStaircase(3));
 // console.log(climbingStaircase(4));
 // console.log(climbingStaircase(5));
+
+
+// towerOfHanoi--------------
+// console.log(towerOfHanoi(3, "A", "C", "B"));
 
 
